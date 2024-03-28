@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-family: comfortaa;
+    font-size: 50px;
+}
+.main {
+    text-align: center;
+}
+#name-input {
+    width: 500px;
+    height: 45px;
+}
+#output {
+    margin-top: 80px;
+   
+}
