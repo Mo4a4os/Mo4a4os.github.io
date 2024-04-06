@@ -65,3 +65,6 @@ footer {
     cursor: pointer;
     border-radius: 20px;
 }
+a {
+    color: black;
+}
