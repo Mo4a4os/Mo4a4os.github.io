@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    margin-bottom: 70px;
+}
+
+#hide-menu-btn{
+    width: 10em;
+    height: 3em;
+ border-radius: 1000px;
+ border-style: solid;
+ border-color: black;
+}
+
+#menu {
+  display: block;
+  
+}
+
+#content {
+  display: none;
+}
