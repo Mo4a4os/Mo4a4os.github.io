@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="calculator-main">
+      <div class="enter-value">
+          <input type="number" name="" id="first">
+          <select name="" id="selection">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+          </select>
+          <input type="number" name="" id="second">
+          <button id="submit" onclick="calculate(firstNum.value, selection.value, secondNum.value)">Sumbit</button>
+      </div>
+      <div id="result">
+
+      </div>
+      <a href="javascript:history.back()" class="back">Обратно ===></a>
+      <p class="p-created"><a href="/" class="created">created by pdox</a></p>
+  </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

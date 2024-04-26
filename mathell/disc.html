@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нахождение корней</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div class="disc-main">
+        
+          <p>Введите a, b, c (если у a нет коэфицента введите 1)</p>
+       <p><input type="number" name="" id="ax">x<sup>2</sup> 
+        <select name="" id="selection-disc-1">
+        <option value="plusik">+</option>
+        <option value="minusik">-</option>
+      </select> 
+      <input type="number" name="" id="bx">x
+      <select name="" id="selection-disc-2">
+        <option value="plusik">+</option>
+        <option value="minusik">-</option>
+      </select> <input type="number" name="" id="cx"> = 0</p>
+      
+       <button id="submit-disc" onclick="discrim(ax.value, bx.value, cx.value, selec1.value, selec2.value)">Submit</button>
+       <div></div>
+       <div id="disc-result"></div>
+       
+       
+       
+       <a href="javascript:history.back()" class="back">Обратно ===></a>
+       <p class="p-created"><a href="/" class="created">created by pdox</a></p>
+       </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
