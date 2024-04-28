@@ -8,11 +8,27 @@ body {
 
 .projects {
     text-decoration: none;
-    background-color: white;
+    color: rgb(0, 0, 0);
     border-style: solid;
+    border-radius: 10px;
     padding: 10px;
-    border-color: blueviolet;
-    border-radius: 3px;
+    margin-bottom: 2em;
+    display: block;
+}
+
+.p-projects {
+    margin-top: 2em;
+    border-style: solid;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.projects-info {
+   margin-left: 5px;
+    font-size: 20px;
 }
 
 .created {
@@ -24,4 +40,112 @@ body {
     margin-top: 100px;
     font-size: 13px;
     text-align: center;
+}
+
+
+#overlay,
+#overlay2,
+#overlay3,
+#overlay4 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+#menu,
+#menu2,
+#menu3,
+#menu4 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 60%; /* устанавливаем ширину меню в 50% от ширины экрана */
+    height: 65%; /* устанавливаем высоту меню в 50% от высоты экрана */
+    padding: 20px;
+    z-index: 2;
+    
+}
+
+#openMenuButton,
+#openMenuButton2,
+#openMenuButton3,
+#openMenuButton4 {
+    background-color: rgb(53, 53, 53);
+    border-style: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.mathell-img {
+    max-width: 28em;
+    border-style: dotted;
+    border-color: black;
+    padding: 2px;
+    margin-bottom: 1em;
+}
+
+.mathell-img-div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.name-menu {
+    color: black;
+}
+
+.description {
+   color: black; 
+}
+
+
+@media (max-width: 1700px) {
+    .mathell-img {
+        max-width: 20em;
+    }
+    #menu,
+#menu2,
+#menu3,
+#menu4 {
+    height: 80%;
+}
+}
+
+@media (max-width: 1030px) {
+    #menu,
+    #menu2,
+    #menu3,
+    #menu4 {
+        height: 90%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 630px) {
+    .mathell-img {
+        max-width: 10em;
+        padding: 1px;
+
+    }
+    .projects {
+        font-size: 14px;
+    }
+}
+@media (max-width: 450px) {
+    #menu,
+    #menu2,
+    #menu3,
+    #menu4{
+        height: 93%;
+        width: 75%;
+    }
 }
